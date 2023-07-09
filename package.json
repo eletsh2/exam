@@ -1,0 +1,19 @@
+{
+  "name": "exams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "run-p install:*",
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "start": "run-p start:*",
+    "start:client": "cd client && npm start",
+    "start:server": "cd server && npm start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
